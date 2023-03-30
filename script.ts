@@ -1,6 +1,7 @@
-if(confirm('Подтвердите действие')){
-    console.log('Подтверждено')
+let password = prompt('Введите пароль')
+if(password == 'Step' || password == 'JavaScript' || password == 'Web'){
+    alert('Подтверждено')
 }
 else{
-    console.log('Отменено')
+    alert('Отменено')
 }
